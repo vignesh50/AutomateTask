@@ -1,0 +1,8 @@
+:: [1] Application Path, [2] Website
+:: Ex: -- > START "" "Application Path " List Website wants to customize
+
+@echo off
+START "" "G:\Program Files\Google\Chrome\Application\Chrome.exe" https://www.gmail.com --profile-directory="Profile 1"
+
+START "" "G:\Program Files\Google\Chrome\Application\Chrome.exe" https://edition.cnn.com/ https://www.gmail.com --profile-directory="Default"
+exit
